@@ -1,0 +1,128 @@
+body {
+  font-family: 'Poppins';
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+}
+
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+ul {
+  display: flex;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+
+h1 {
+  font-size: 60px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 25px;
+  margin-bottom: 50px;
+}
+
+a {
+  font-size: 14px;
+  background: #5cb8ff;
+  padding: 20px 35px 20px 35px;
+  color: white;
+}
+
+header {
+  background: url(898798.jpg);
+  height: 100vh;
+  background-size: cover;
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 90%;
+  margin: auto;
+}
+
+
+/* ARRANCA SECCION SOBRE MI */
+
+h3 {
+  text-align: center;
+  font-size: 55px;
+  font-weight: normal;
+}
+
+.contenedor-sobremi {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contenedorparrafoyboton {
+  width: 42%
+}
+
+.contenedorparrafoyboton p {
+  font-size: 17px;
+}
+
+.contenedorparrafoyboton a {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.contenedorservicio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.servicio {
+  width: 25%;
+  padding: 50px 38px 50px 38px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.violeta {
+  background: #5055df
+}
+
+.celeste {
+  background: #40a8fa
+}
+
+.servicio h4 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.servicio img {
+  float: right;
+}
+
+.servicio p {
+  font-size: 18px;
+}
